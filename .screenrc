@@ -1,0 +1,17 @@
+# コマンドキーをCtrl+Zにする
+escape ^Zz
+
+# 端末が落ちたら自動的にデタッチする
+autodetach on
+
+# ウィンドウのタイトル指定
+shelltitle '$|bash'
+
+# changes the kind of messages to the nethack-style.
+nethack on
+
+caption always '%?%F%{= bW}%:%{= Kk}%?%2n%f%07=%t%='
+hardstatus alwayslastline '%m/%d %02c %{= .g}%H%{-} %L=%-w%45L>%{=u b.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
+
+startup_message on
+#hardstatus alwayslastline "[%02c] %`%{=b bw}%n %t%{-}%+w"

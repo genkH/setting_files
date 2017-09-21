@@ -1,0 +1,29 @@
+[user]
+	email = harada.genki@accelight.co.jp
+	name = harada
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[core]
+  #pager = lv -c
+  editor = vi
+[alias]
+  co = commit -a
+  ch = checkout
+  br = branch -v
+  rb = rebase
+  gerp = grep
+  gp = grep
+  gr = grep
+  ls = log --pretty=format:"%C(yellow)%h%C(red)%d\\%C(reset)%s%C(blue)\\ [%cn]" --decorate
+  ll = log --pretty=format:"%C(yellow)%h%C(red)%d\\%C(reset)%s%C(blue)\\ [%cn]" --decorate --numstat
+  #ls = log --pretty=format:"%C(auto,yellow)%h%C(auto,red)%d\\%C(auto,reset)%s%C(auto,blue)\\ [%cn]" --decorate
+  #ll = log --pretty=format:"%C(auto,yellow)%h%C(auto,red)%d\\%C(auto,reset)%s%C(auto,blue)\\ [%cn]" --decorate --numstat
+  d = diff
+  dt = diff-tree -p
+  st = status
+  st2 = status -uno -s
+#[push]
+# default = simple
+  

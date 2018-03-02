@@ -32,15 +32,15 @@ augroup END
 
 filetype plugin indent off
 
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim
-  call neobundle#begin(expand('~/.vim/bundle'))
-endif
+"if has('vim_starting')
+"  set runtimepath+=~/.vim/bundle/neobundle.vim
+"  call neobundle#begin(expand('~/.vim/bundle'))
+"endif
 
 "NeoBundleFetch 'Shougo/neobundle.vim'
 "NeoBundle 'mattn/emmet-vim'
 
-call neobundle#end()
+"call neobundle#end()
 
 filetype plugin indent on
 
